@@ -1,0 +1,126 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-image: url('../photos/image1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* headings */
+
+h1 {
+padding: 3% 6%;
+/* margin-bottom: 30px; */
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* first Buttons */
+
+.firstButtons {
+  text-align: left;
+  padding: 20px;
+  margin-left: 15px;
+  /* if element is to be centered */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.mainButton {
+  padding: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  margin: 5px 0;
+}
+
+
+.deleteTask {
+  margin-left: 7px;
+}
+
+
+
+/* close button */
+
+.closeButton {
+  padding: 2% 2%;
+  text-align: right;
+  margin-top: 10%;
+}
+
+/* input section */
+
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.inputRightAlign {
+  display: inline-block;
+  float: right;
+}
+
+
+/* main section and div */
+
+#mainSection {
+
+  width: 60%;
+  text-align: center;
+  background-image: url('../photos/image6.png');
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  height: 100%;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+}
+
+
+/*Fade in and out  */
+
+
+
+/* toDo Field */
+
+ul li {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: left;
+}
+
+.toDoField {
+  padding: 25px;
+  height: 580px;
+  overflow-y: scroll;
+}
+
+
+/* toggle classes */
+
+.show {
+  display: none;
+}
+
+.done {
+  text-decoration: line-through;
+  color: red;
+}
+
+.delete {
+  display: none;
+}
